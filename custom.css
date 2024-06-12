@@ -1,0 +1,174 @@
+
+.circle, .message {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+}
+
+.circle {
+    border-radius: 100%;
+    width: 200px; /* Increased width */
+    height: 200px; /* Increased height */
+}
+
+.circle1 {
+    border-left: 14px solid black; /* Adjusted border size */
+    border-right: 14px solid black; /* Adjusted border size */
+    animation: spin 2s linear infinite;
+    background-color: #0d2575;
+    z-index: 100;
+}
+
+.circle2 {
+    border-top: 12px solid black; /* Adjusted border size */
+    border-bottom: 12px solid black; /* Adjusted border size */
+    animation: spin 2s linear infinite;
+    width: 260px; /* Increased width */
+    height: 260px; /* Increased height */
+    background: linear-gradient(#00a4ff, #00ff89);
+    -webkit-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+
+.message {
+    height: 100px; /* Adjusted height */
+    width: 300px; /* Adjusted width */
+    z-index: 200;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.message {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding-top: 60px; /* Adjusted padding */
+    font-size: 18px; /* Increased font size */
+    -webkit-animation: fonthide 1.3s linear infinite;
+    animation: fonthide 1.3s linear infinite;
+}
+
+@keyframes fonthide {
+    0%, 80% {
+        color: #2196f3;
+    }
+    100% {
+        color: black;
+    }
+}
+
+@-webkit-keyframes fonthide {
+    0%, 80% {
+        color: #2196f3;
+    }
+    100% {
+        color: black;
+    }
+}
+
+
+
+/* Swiper Class  */
+.swiper-slide {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.swiper-slide::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    z-index: 1;
+}
+
+.swiper-slide .swiper-slide-caption {
+    position: relative;
+    z-index: 2;
+}
+
+.swiper-title {
+    font-weight: bold;
+    color: white;
+}
+
+.swiper-text {
+    color: white;
+}
+
+.button {
+    position: relative;
+    z-index: 2;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.services-terri {
+    text-align: center;
+}
+
+.services-terri img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.services-terri-caption {
+    margin-top: 15px;
+}
+
+.services-terri-icon {
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+.services-terri-title {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.wow {
+    visibility: hidden;
+}
+
+.services-terri-figure{
+    height: 13rem !important;
+}
+.rd-navbar-modern.rd-navbar-static .rd-navbar-brand img {
+    width: 40rem !important;
+    height: auto;
+    max-width: 160px;
+    max-height: 160px;
+}
