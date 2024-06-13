@@ -1,0 +1,28 @@
+/*
+	Theme Name: Cognicierge Custom Development
+	Theme URI: https://wordpress.org/themes/Cognicierge/
+	Description: Cognicierge offers a comprehensive range of digital marketing and website development services to help your business thrive in the online world. Our expert team specializes in creating customized solutions that meet your unique needs.
+	Author: Oishik Dutta
+	Author URI: https://hellooishik.github.io/Resume-23/
+	Version: 1.1
+	Stable tag: 1.1
+	Requires at least: 6.4
+	Tested up to: 6.5
+	Requires PHP: 7.0
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Text Domain: infizest-publishing
+	Tags: content-writing, subject-matter, writings
+*/
+/**
+ * Loading first in the style.scss & classic-editor.scss
+ */
+/**
+* Document basic styling
+* Inspired by Normalize.css, HTML5 Boilerplate & Bootstrap Reboot Projects under MIT License
+ */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * 3. Change from `box-sizing: content-box` so that `width` is not affected by `padding` or `border`.
+ */
